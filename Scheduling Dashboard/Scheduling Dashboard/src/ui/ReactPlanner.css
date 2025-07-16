@@ -1,0 +1,57 @@
+/*
+Place your custom CSS here
+*/
+
+.react-planner {
+    box-sizing: border-box;
+    > .RBS-Scheduler-root {
+        margin: 0 !important;
+    }
+}
+
+.ant-popover {
+    max-width: 30vw !important;
+}
+
+.rbc-event {
+    white-space: normal !important;
+    overflow: visible !important;
+    text-overflow: unset !important;
+    line-height: 1.4 !important;
+}
+
+.scheduler-table .event-container {
+    overflow: visible !important;
+}
+
+.scheduler-table .event-item {
+    overflow: visible !important;
+    word-break: break-word !important;
+}
+
+.scheduler-row {
+    overflow: visible !important;
+}
+
+.scheduler-row .event-container {
+    overflow: visible !important;
+}
+
+/* ✅ New: Wrap long resource names */
+.rbc-resource-cell {
+    white-space: normal !important;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.4;
+    padding-right: 8px;
+}
+
+/* ✅ New: Ensure rows are tall enough for wrapped text */
+.rbc-row.rbc-row-resource {
+    min-height: 42px;
+}
+
+/* ✅ New: Show native tooltip when title is applied */
+.rbc-resource-cell[title] {
+    cursor: help;
+}
