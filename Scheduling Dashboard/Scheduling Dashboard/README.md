@@ -1,5 +1,5 @@
-## ReactPlanner
-[Planner widget for React apps]
+## Scheaduling Dashboard
+[Scheaduling Dashboard for React apps]
 
 ## Features
 [feature highlights]
@@ -8,7 +8,7 @@
 [step by step instructions]
 
 ## Demo project
-[link to sandbox]
+
 
 ## Issues, suggestions and feature requests
 [link to GitHub issues]
